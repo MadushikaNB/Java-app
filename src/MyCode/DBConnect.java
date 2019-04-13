@@ -18,12 +18,7 @@ public class DBConnect {
         String host= "";
         String username ="";
         String password = "";
-    //watermate.000webhostapp.com
-        /*$db_name = "id489183_watermate";
-       $mysql_username = "id489183_sandun";
-       $mysql_password = "12345";
-       Chat Conversation End
-       */
+    
         try
         {  
       Class.forName("com.mysql.jdbc.Driver").newInstance();      
